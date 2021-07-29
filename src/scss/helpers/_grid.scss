@@ -1,0 +1,26 @@
+.container {
+    margin-right:   auto;
+    margin-left:    auto;
+    padding-left:   22px;
+    padding-right:  22px;
+    width: 100%;
+    max-width: 720px;
+
+    @include lg {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 1260px;
+    }
+    
+    @include grid1540Up {
+        padding-left:   34px;
+        padding-right:  34px;
+        max-width: 1468px;
+    }
+    
+    // @include md {
+    //     padding-left:   34px;
+    //     padding-right:  34px;
+    //     max-width: 1440px;
+    // }
+}
